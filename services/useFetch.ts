@@ -25,7 +25,7 @@ export const useFetch = <T>(fetchFunction: () => Promise<T>, autofetch = true) =
 
   function reset() {
     setData(null);
-    setLoading(true);
+    setLoading(false);
     setError(null);
   }
 
